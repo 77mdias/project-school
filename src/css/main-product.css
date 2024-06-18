@@ -1,0 +1,26 @@
+.main-product {
+    margin: 5rem 0 .7rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-desc {
+    width: 40%;
+}
+
+.product-desc h1 {
+    font-size: 25pt;
+    margin-bottom: 3rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.product-desc p {
+    font-size: 17pt;
+    margin-bottom: 1.2rem;
+}
+
+.InfoP {
+    font-weight: 700;
+    color: var(--color-hover);
+}

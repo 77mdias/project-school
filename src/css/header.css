@@ -1,0 +1,149 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    /*background-color: var(--color-gray);*/
+    justify-content: space-between;
+    align-items: end;
+    padding: .8rem 4rem;
+    font-size: 17pt;
+    color: var(--color-white);
+}
+
+.head a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+#links-social {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+
+#links-social ion-icon {
+    font-size: 21pt;
+    text-decoration: none;
+    opacity: 0.6;
+    color: var(--color-white);
+    transition: all 0.4s;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-white);
+    gap: 1.6rem;
+    padding-bottom: 5px;
+}
+
+#links-social ion-icon:hover {
+    color: var(--color-hover);
+    opacity: 1;
+    transform: translateY(-5px);
+    transition: all 0.4s;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    position: relative;
+}
+
+.navigation ul li a:hover {
+    color: var(--color-hover);
+    transition: all 0.4s;
+}
+
+.navigation ul li a:hover::after {
+    transform: scaleX(1);
+    transition: transform 0.4s;
+    transform-origin: left;
+}
+
+.navigation ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 60%;
+    height: 2px;
+    background: var(--color-hover);
+    transition: transform 0.4s;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-size: 24pt;
+}
+
+.account input {
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 12px;
+    font-size: 12pt;
+}
+
+.menu-mobal-icon {
+    display: none;
+}
+
+.button-menu {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 3px;
+}
+
+.button-menu img {
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .account input {
+        display: none;
+    }
+
+    .account label {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1200px) {
+    #links-social {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navigation {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .head {
+        padding: .8rem 0.8rem;
+    }
+
+
+
+    .menu-mobal-icon {
+        display: flex;
+    }
+}

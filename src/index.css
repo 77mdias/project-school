@@ -1,0 +1,33 @@
+@import url(./css/header.css);
+@Import url(./css/main.css);
+@import url(./css/main-store.css);
+@import url(./css/main-advertise.css);
+@import url(./css/main-port.css);
+@import url(./css/main-product.css);
+
+
+:root {
+    --color-black: rgb(22, 19, 26);
+    --color-white: rgb(225, 225, 225);
+    --color-gray: rgba(68, 192, 161, 0.541);
+    --color-hover: #44cfe4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: 'Victor Mono';
+    font-style: normal;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    color: var(--color-white);
+}

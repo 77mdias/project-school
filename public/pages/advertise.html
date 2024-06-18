@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncie - Code HARDWARE</title>
+
+    <link rel="stylesheet" href="../index.css">
+    <script src="../index.js" defer></script>
+</head>
+
+<body>
+    <header class="head">
+        <img src="../assets/logo page.png" alt="" width="280px">
+        <ul id="links-social">
+            <li>
+                <a href="https://instagram.com/77mdias" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jeancmdias" target="_blank"><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li>
+                <a href="https://github.com/77mdias" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </li>
+        </ul>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+            </ul>
+            <ul>
+                <li><a href="./store.html">Produtos</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Anuncie</a></li>
+            </ul>
+            <ul>
+                <li><a href="./portifolio.html">Portifólio</a></li>
+            </ul>
+        </nav>
+        <div class="account">
+            <input type="text" placeholder="Pesquisar" class="inputSearch" id="search">
+            <label for="search"><ion-icon name="search-outline"></ion-icon></label>
+            <a href=""><ion-icon name="person-circle-outline"></ion-icon></a>
+        </div>
+        <div class="menu-mobal-icon">
+            <button class="button-menu">
+                <img class="icon" src="../assets/menu_white_36dp.svg" alt="" />
+            </button>
+        </div>
+    </header>
+
+    <main class="main-advertise">
+        <img src="../assets/background form.jpg" alt="">
+        <div class="divForm">
+            <h1>Cadastro de Anúncio</h1>
+            <form action="" class="form">
+                <div class="row">
+                    <div class="label">
+                        <label for="anunciante">Nome do Anunciante: </label>
+                        <input type="text" name="anunciante" id="anunciante" class="inputs" placeholder="Anunciador">
+                    </div>
+
+                    <div class="label">
+                        <label for="titleAnuncio">Título do Anúncio: </label>
+                        <input type="text" name="titleAnuncio" id="titleAnuncio" class="inputs" placeholder="Produto">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="label">
+                        <label for="valorAnuncio">Valor do Anúncio: </label>
+                        <input type="number" name="valorAnuncio" id="valorAnuncio" class="inputs"
+                            placeholder="Valor em R$">
+                    </div>
+
+                    <div class="label">
+                        <label for="imgAnuncio">Imagem do Anúncio: </label>
+                        <input type="file" name="imgAnuncio" id="imgAnuncio" class="inputs">
+                    </div>
+                </div>
+
+                <div class="label">
+                    <label for="Contact">Contato: </label>
+                    <input type="text" name="Contact" id="Contact" class="inputs" placeholder="Contato, Email, Loja...">
+                </div>
+
+                <div class="label">
+                    <label for="desc">Descrição: </label>
+                    <textarea name="desc" id="desc" aria-valuemax="600" placeholder="Digite a descrição do Anúncio"
+                        class="inputs" rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="inputs button" id="buttonCad">Cadastrar</button>
+            </form>
+        </div>
+
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
