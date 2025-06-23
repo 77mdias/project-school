@@ -109,7 +109,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Jean Carlos Moreira Dias**
 
-- GitHub: [@jean-carlos-moreira-dias](https://github.com/jean-carlos-moreira-dias-projects)
+- GitHub: [@jean-carlos-moreira-dias](https://github.com/77mdias)
 - Universidade: UNOESTE - Universidade do Oeste Paulista
 - Curso: Análise e Desenvolvimento de Sistemas
 
